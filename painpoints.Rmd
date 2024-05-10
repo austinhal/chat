@@ -1,0 +1,39 @@
+---
+title: "Outlook Painpoints"
+website: "www.verisk.com"
+output: 
+  html_document:
+    theme: journal
+    toc: true
+    toc_float: true
+---
+
+As we continue to expand our Account Changes audience, it’s crucial that we address key pain points to enhance customer satisfaction and overall experience. Our current email system, Outlook, faces several challenges that impact both efficiency and customer perception. By transitioning to Front.com for emails, we can proactively tackle these pain points and elevate our customer service. Below, I’ve outlined the critical issues and how Front.com can provide solutions:
+
+## Disordered Inbox 🗃️
+
+Outlook’s cluttered inbox makes it difficult for our team to prioritize and manage customer inquiries efficiently.
+
+*<strong>[Front.com's](www.front.com)</strong> offers a streamlined inbox with customizable tags, labels, and assignment rules. This ensures that emails are organized and routed to the right team members promptly.*
+
+## Outlook is Clumsy 🤕
+
+Slow Program Response Times and Glitches: Outlook frequently experiences lags and glitches, impacting our responsiveness to customer requests.
+
+*<strong>[Front.com's](www.front.com)</strong> lightweight interface and optimized performance lead to faster response times. Its robust infrastructure minimizes disruptions, ensuring seamless communication.*
+
+## No Metric Tracking 📊
+
+Outlook lacks built-in metrics, making it challenging to measure our team’s performance accurately.
+
+*<strong>[Front.com](www.front.com)</strong> provides detailed analytics, including response times, resolution rates, and workload distribution. We can track KPIs and identify areas for improvement.*
+
+## No Email Tagging 🤷
+
+Difficulty Identifying Customer Assistance Areas: Without clear categorization, it’s hard to determine which areas we’re assisting customers in (e.g., billing, technical support, account changes).
+
+*<strong>[Front.com's](www.front.com)</strong> offers a wide range of tagging systems that would allow us quick and clear access of where we are helping our customers the most and quickly.*
+
+---
+
+An email management platform addresses all these points and more. This will allow for our team to tackle a larger customer base, improve the customer experience, and make sure each customer is satisfied with choosing Verisk.

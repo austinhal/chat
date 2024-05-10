@@ -1,0 +1,20 @@
+name: "my-website"
+navbar:
+  title: "Emails and AC"
+  left:
+    - text: "Pitch"
+      href: index.html
+    - text: "Painpoints"
+      href: painpoints.html
+    - text: "What is Front?"
+      href: front.html
+    - text: "Features/Pricing"
+      href: features.html
+    - text: "Secruity"
+      href: secruity.html
+      
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:ahalvorsen@verisk.com
+    - icon: fa-brands fa-linkedin
+      href: https://www.linkedin.com/in/ahalvo

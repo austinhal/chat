@@ -1,0 +1,13 @@
+---
+title: "Notable Features"
+website: "www.verisk.com"
+output: 
+  html_document:
+    theme: journal
+    toc: true
+    toc_float: true
+---
+
+Front also offers a Chat feature that we can integrate into certain webpages. This would allow us to quickly handle certain tasks quickly or decide if they need to go to someone else, before ever reaching an inbox. The chat function could require users to be logged in to a chosen page before showing them the option to chat, so we could filter users and authenticate quickly and securely.
+
+![](chat.png)
