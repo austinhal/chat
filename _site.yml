@@ -18,3 +18,5 @@ navbar:
       href: mailto:ahalvorsen@verisk.com
     - icon: fa-brands fa-linkedin
       href: https://www.linkedin.com/in/ahalvo
+      
+output_dir: "."
