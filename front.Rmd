@@ -5,7 +5,9 @@ output:
   html_document:
     theme: journal
     toc: true
-    toc_float: true
+    toc_float:
+      collapsed: false
+    toc_depth: 4
 ---
 
 Front is a modern customer service platform that helps companies enhance customer experiences, engage their teams, and build stronger businesses. It provides a seamless way to manage communication across various channels, including email, social media, and more. Here are some key points about Front
@@ -16,26 +18,26 @@ Front is a modern customer service platform that helps companies enhance custome
 
 <br>
 
-### 1. Multi-Channel Communication 📞
+### Multi-Channel Communication 📞
 
-Front allows teams to collaborate on messages from email, chat, social media, and other channels in a single interface. This streamlines communication and ensures that no customer inquiries fall through the cracks.
+Front allows teams to collaborate on messages from email, chat, social media, and other channels in a single interface. This streamlines communication and ensures that no customer inquiries fall through the cracks.<br><br>
 
-### 2. Team Collaboration 🤝
+### Team Collaboration 🤝
 
-With Front, teams can work together efficiently. They can assign messages to specific team members, leave internal notes, and collaborate on responses. This ensures consistent and timely customer support.
+With Front, teams can work together efficiently. They can assign messages to specific team members, leave internal notes, and collaborate on responses. This ensures consistent and timely customer support.<br><br>
 
-### 3. Automation and Integrations 🔗
+### Automation and Integrations 🔗
 
-Front integrates with various tools and services, allowing companies to automate repetitive tasks. For example, you can set up rules to route specific types of inquiries to the right team or use templates for common responses.
+Front integrates with various tools and services, allowing companies to automate repetitive tasks. For example, you can set up rules to route specific types of inquiries to the right team or use templates for common responses.<br><br>
 
-### 4. Mobile and Desktop Apps 📱💻
+### Mobile and Desktop Apps 📱💻
 
-Front offers desktop apps for macOS and Windows, as well as mobile apps for iOS and Android. This means you can stay connected and manage messages whether you’re at your desk or on the go.
+Front offers desktop apps for macOS and Windows, as well as mobile apps for iOS and Android. This means you can stay connected and manage messages whether you’re at your desk or on the go.<br><br>
 
-### 5. Web Access 🌐
+### Web Access 🌐
 
-You can also access your Front account via the web at [app.frontapp.com](app.frontapp.com).
+You can also access your Front account via the web at [app.frontapp.com](app.frontapp.com).<br><br>
 
 ---
 
-<p style="font-size: 24px; font-type: bold; color:black">Overall, Front aims to improve communication, streamline workflows, and enhance customer service for businesses of all sizes</p>
+<p style="font-size: 18px; font-type: bold; color:black">Overall, Front aims to improve communication, streamline workflows, and enhance customer service for businesses of all sizes</p>

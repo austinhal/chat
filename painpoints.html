@@ -283,6 +283,12 @@ div.tocify {
   border-radius: 0px;
 }
 
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
 
 </style>
 
@@ -377,7 +383,7 @@ prioritize and manage customer inquiries efficiently.</p>
 <p><em><strong><a href="www.front.com">Front.com’s</a></strong> offers a
 streamlined inbox with customizable tags, labels, and assignment rules.
 This ensures that emails are organized and routed to the right team
-members promptly.</em></p>
+members promptly.</em><br><br></p>
 </div>
 <div id="outlook-is-clumsy" class="section level2">
 <h2>Outlook is Clumsy 🤕</h2>
@@ -387,7 +393,7 @@ requests.</p>
 <p><em><strong><a href="www.front.com">Front.com’s</a></strong>
 lightweight interface and optimized performance lead to faster response
 times. Its robust infrastructure minimizes disruptions, ensuring
-seamless communication.</em></p>
+seamless communication.</em><br><br></p>
 </div>
 <div id="no-metric-tracking" class="section level2">
 <h2>No Metric Tracking 📊</h2>
@@ -396,7 +402,7 @@ team’s performance accurately.</p>
 <p><em><strong><a href="www.front.com">Front.com</a></strong> provides
 detailed analytics, including response times, resolution rates, and
 workload distribution. We can track KPIs and identify areas for
-improvement.</em></p>
+improvement.</em><br><br></p>
 </div>
 <div id="no-email-tagging" class="section level2">
 <h2>No Email Tagging 🤷</h2>
@@ -405,7 +411,8 @@ categorization, it’s hard to determine which areas we’re assisting
 customers in (e.g., billing, technical support, account changes).</p>
 <p><em><strong><a href="www.front.com">Front.com’s</a></strong> offers a
 wide range of tagging systems that would allow us quick and clear access
-of where we are helping our customers the most and quickly.</em></p>
+of where we are helping our customers the most and
+quickly.</em><br><br></p>
 <hr />
 <p>An email management platform addresses all these points and more.
 This will allow for our team to tackle a larger customer base, improve
@@ -462,7 +469,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2,h3",
+      selectors: "h1,h2,h3,h4",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
@@ -471,7 +478,7 @@ $(document).ready(function ()  {
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
     };
-    options.showAndHide = true;
+    options.showAndHide = false;
     options.smoothScroll = true;
 
     // tocify

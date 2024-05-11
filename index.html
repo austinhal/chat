@@ -284,6 +284,12 @@ div.tocify {
   border-radius: 0px;
 }
 
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
 
 </style>
 
@@ -365,44 +371,46 @@ div.tocify {
 </div>
 
 
-<p><strong>Why should we consider switching from Outlook to
-Front:</strong></p>
-<div id="what-is-front" class="section level3">
-<h3>What is Front?</h3>
+<p style="font-size: 18px; color: black;">
+<strong>Why should we consider switching from Outlook to Front:</strong>
+</p>
+<p><br></p>
+<div id="what-is-front" class="section level2">
+<h2>What is Front?</h2>
 <p>Front is a modern customer service platform that helps companies
 enhance customer experiences, engage their teams, and build stronger
 businesses. It provides a seamless way to manage communication across
 various channels, including email, social media, and more. Here are some
-key points about <a href="www.front.com">Front</a></p>
-</div>
-<div id="shared-perspective-and-accountability" class="section level3">
-<h3>Shared Perspective and Accountability ⚖️️</h3>
+key points about <a href="www.front.com">Front</a><br><br></p>
+<div id="views-and-accountability" class="section level3">
+<h3>Views and Accountability ⚖️️</h3>
 <p>Outlook’s shared mailboxes and distribution lists lack clear
 ownership, leading to confusion about who should handle specific emails.
 Front provides shared inboxes, allowing your team to collaborate
 effectively. Real-time collision detection ensures everyone knows who’s
 responding to an email, eliminating duplicate work and ensuring
-accountability.</p>
+accountability.<br><br></p>
 </div>
 <div id="avoid-lost-emails" class="section level3">
 <h3>Avoid Lost Emails 🧭</h3>
 <p>In Outlook, valuable emails can get lost in the flood of incoming
 messages. Front keeps your team on top of messages, ensuring faster
 responses and critical communication doesn’t slip through the
-cracks.</p>
+cracks.<br><br></p>
 </div>
 <div id="metrics-tracking" class="section level3">
 <h3>Metrics Tracking ⏱️</h3>
 <p>Outlook lacks built-in features for tracking metrics like response
 times and SLA agreements. Front offers reporting and analytics, allowing
 you to monitor performance, measure response times, and meet service
-level agreements effectively.</p>
+level agreements effectively.<br><br></p>
 <hr />
-<p style="font-size: 20px; font-style: bold">
+<p style="font-size: 18px; font-style: bold; color: black;">
 In summary, Front streamlines collaboration, prevents email overload,
 and provides the tools needed to manage customer communications
 efficiently.
 </p>
+</div>
 </div>
 
 
@@ -454,7 +462,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2,h3",
+      selectors: "h1,h2,h3,h4",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
@@ -463,7 +471,7 @@ $(document).ready(function ()  {
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
     };
-    options.showAndHide = true;
+    options.showAndHide = false;
     options.smoothScroll = true;
 
     // tocify

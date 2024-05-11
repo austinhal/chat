@@ -283,6 +283,12 @@ div.tocify {
   border-radius: 0px;
 }
 
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
 
 </style>
 
@@ -373,37 +379,38 @@ key points about Front</p>
 </video>
 <p><br></p>
 <div id="multi-channel-communication" class="section level3">
-<h3>1. Multi-Channel Communication 📞</h3>
+<h3>Multi-Channel Communication 📞</h3>
 <p>Front allows teams to collaborate on messages from email, chat,
 social media, and other channels in a single interface. This streamlines
 communication and ensures that no customer inquiries fall through the
-cracks.</p>
+cracks.<br><br></p>
 </div>
 <div id="team-collaboration" class="section level3">
-<h3>2. Team Collaboration 🤝</h3>
+<h3>Team Collaboration 🤝</h3>
 <p>With Front, teams can work together efficiently. They can assign
 messages to specific team members, leave internal notes, and collaborate
-on responses. This ensures consistent and timely customer support.</p>
+on responses. This ensures consistent and timely customer
+support.<br><br></p>
 </div>
 <div id="automation-and-integrations" class="section level3">
-<h3>3. Automation and Integrations 🔗</h3>
+<h3>Automation and Integrations 🔗</h3>
 <p>Front integrates with various tools and services, allowing companies
 to automate repetitive tasks. For example, you can set up rules to route
 specific types of inquiries to the right team or use templates for
-common responses.</p>
+common responses.<br><br></p>
 </div>
 <div id="mobile-and-desktop-apps" class="section level3">
-<h3>4. Mobile and Desktop Apps 📱💻</h3>
+<h3>Mobile and Desktop Apps 📱💻</h3>
 <p>Front offers desktop apps for macOS and Windows, as well as mobile
 apps for iOS and Android. This means you can stay connected and manage
-messages whether you’re at your desk or on the go.</p>
+messages whether you’re at your desk or on the go.<br><br></p>
 </div>
 <div id="web-access" class="section level3">
-<h3>5. Web Access 🌐</h3>
+<h3>Web Access 🌐</h3>
 <p>You can also access your Front account via the web at <a
-href="app.frontapp.com">app.frontapp.com</a>.</p>
+href="app.frontapp.com">app.frontapp.com</a>.<br><br></p>
 <hr />
-<p style="font-size: 24px; font-type: bold; color:black">
+<p style="font-size: 18px; font-type: bold; color:black">
 Overall, Front aims to improve communication, streamline workflows, and
 enhance customer service for businesses of all sizes
 </p>
@@ -458,7 +465,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2,h3",
+      selectors: "h1,h2,h3,h4",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
@@ -467,7 +474,7 @@ $(document).ready(function ()  {
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
     };
-    options.showAndHide = true;
+    options.showAndHide = false;
     options.smoothScroll = true;
 
     // tocify

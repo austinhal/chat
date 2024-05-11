@@ -6,31 +6,32 @@ output:
   html_document:
     theme: journal
     toc: true
-    toc_float: true
-    toc_depth: 3
+    toc_float:
+      collapsed: false
+    toc_depth: 4
 ---
 
-**Why should we consider switching from Outlook to Front:**
+<p style="font-size: 18px; color: black;">**Why should we consider switching from Outlook to Front:**</p><br>
 
-### What is Front?
+## What is Front?
 
-Front is a modern customer service platform that helps companies enhance customer experiences, engage their teams, and build stronger businesses. It provides a seamless way to manage communication across various channels, including email, social media, and more. Here are some key points about [Front](www.front.com)
+Front is a modern customer service platform that helps companies enhance customer experiences, engage their teams, and build stronger businesses. It provides a seamless way to manage communication across various channels, including email, social media, and more. Here are some key points about [Front](www.front.com)<br><br>
 
-### Shared Perspective and Accountability ⚖️️
+### Views and Accountability ⚖️️
 
 Outlook’s shared mailboxes and distribution lists lack clear ownership, leading to confusion about who should handle specific emails.
-Front provides shared inboxes, allowing your team to collaborate effectively. Real-time collision detection ensures everyone knows who’s responding to an email, eliminating duplicate work and ensuring accountability.
+Front provides shared inboxes, allowing your team to collaborate effectively. Real-time collision detection ensures everyone knows who’s responding to an email, eliminating duplicate work and ensuring accountability.<br><br>
 
 ### Avoid Lost Emails 🧭
 
 In Outlook, valuable emails can get lost in the flood of incoming messages.
-Front keeps your team on top of messages, ensuring faster responses and critical communication doesn’t slip through the cracks.
+Front keeps your team on top of messages, ensuring faster responses and critical communication doesn’t slip through the cracks.<br><br>
 
 ### Metrics Tracking ⏱️
 
 Outlook lacks built-in features for tracking metrics like response times and SLA agreements.
-Front offers reporting and analytics, allowing you to monitor performance, measure response times, and meet service level agreements effectively.
+Front offers reporting and analytics, allowing you to monitor performance, measure response times, and meet service level agreements effectively.<br><br>
 
 ---
 
-<p style="font-size: 20px; font-style: bold">In summary, Front streamlines collaboration, prevents email overload, and provides the tools needed to manage customer communications efficiently.</p>
+<p style="font-size: 18px; font-style: bold; color: black;">In summary, Front streamlines collaboration, prevents email overload, and provides the tools needed to manage customer communications efficiently.</p>

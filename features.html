@@ -283,6 +283,12 @@ div.tocify {
   border-radius: 0px;
 }
 
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
 
 </style>
 
@@ -363,13 +369,53 @@ div.tocify {
 </div>
 
 
-<p>Front also offers a Chat feature that we can integrate into certain
-webpages. This would allow us to quickly handle certain tasks quickly or
-decide if they need to go to someone else, before ever reaching an
-inbox. The chat function could require users to be logged in to a chosen
-page before showing them the option to chat, so we could filter users
-and authenticate quickly and securely.</p>
-<p><img src="chat.png" /></p>
+<div id="chat" class="section level2">
+<h2><i style="color:blue" class="fa-regular fa-comments"></i> Chat</h2>
+<p>Front offers a Chat feature that we can integrate into certain
+webpages. This would allow us to quickly handle tasks quickly or decide
+if they need to go to another department, before ever reaching an inbox.
+The chat function could require users to be logged in to a chosen page
+before showing them the option to chat, so we could filter users and
+authenticate quickly and securely.</p>
+<p><img src="chat.png" /> <br><br></p>
+</div>
+<div id="salesforce" class="section level2">
+<h2><i style="color:#1F5FBF" class="fa-brands fa-salesforce"></i>
+Salesforce</h2>
+<p>Front integrates with salesforce, so we can continue logging emails
+as we do today, but see relevant information about the company and
+contact, without leaving the mailbox.</p>
+<p><img src="salesforce.png" /></p>
+<p><br><br></p>
+</div>
+<div id="jira" class="section level2">
+<h2><i style="color:#0052CC" class="fa-brands fa-jira"></i> JIRA</h2>
+<p>Associate JIRA tickets directly to conversations to track the status
+of a ticket. Co-workers can see the status of these tickets if a
+teammate is out of office without having to sort through open
+issues.</p>
+<p><img src="jira.png" /></p>
+<p><br><br></p>
+</div>
+<div id="email-tagging" class="section level2">
+<h2><i class="fa-solid fa-tags"></i> Email Tagging</h2>
+<p><img src="tagging.png" /> <br><br></p>
+</div>
+<div id="saved-responses" class="section level2">
+<h2><i style="color:green" class="fa-solid fa-copy"></i> Saved
+Responses</h2>
+<p><img src="templates.png" /> <br><br></p>
+</div>
+<div id="analytics" class="section level2">
+<h2><i class="fa-solid fa-chart-simple"></i> Analytics</h2>
+<video loop="" autoplay="" playsinline="" width="100%">
+<source src="https://front.com/assets/solution-pages/Product-Videos/Solutions_Customer-Satisfaction-1180x852.mp4">
+</video>
+<script src='https://chat-assets.frontapp.com/v1/chat.bundle.js'></script>
+<pre><code>&lt;script&gt;
+    window.FrontChat(&#39;init&#39;, { chatId: &#39;948c51f189f73fb0c2f5b4a25ae356b2&#39;, useDefaultLauncher: true });</code></pre>
+</script>
+</div>
 
 
 
@@ -420,7 +466,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2,h3",
+      selectors: "h1,h2,h3,h4",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
@@ -429,7 +475,7 @@ $(document).ready(function ()  {
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
     };
-    options.showAndHide = true;
+    options.showAndHide = false;
     options.smoothScroll = true;
 
     // tocify

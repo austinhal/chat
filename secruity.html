@@ -283,6 +283,12 @@ div.tocify {
   border-radius: 0px;
 }
 
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
 
 </style>
 
@@ -363,6 +369,32 @@ div.tocify {
 </div>
 
 
+<section>
+<h2>
+More Information
+</h2>
+<p>
+<p>Front has a wealth of information in their
+<a href="https://front.com/resources" target="_blank">help docs</a> and
+on their homepage. <a href="https://front.com/product" target="_blank">A
+brief list of features</a> can be found on their homepage.</p>
+<pre><code>        Pricing information is located &lt;a href=&quot;https://front.com/pricing&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        &lt;a href=&quot;https://www.youtube.com/watch?v=HQCUMNPjtSk&quot; target=&quot;_blank&quot;&gt;Product Overview Demo video&lt;/a&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        &lt;a href=&quot;https:/help.front.com/en/articles/2280&quot; target=&quot;_blank&quot;&gt;SSO Information&lt;/a&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        Security Handbook &lt;a
+            href=&quot;https://front.com/assets/security/Front-Security-and-Compliance-Handbook-2024_Updated-020724.pdf&quot;&gt;[PDF
+            Download]&lt;/a&gt;
+    &lt;/p&gt;
+&lt;/section&gt;</code></pre>
 <p>Front has a wealth of information in their help docs and on their
 homepage. A brief list of features can be found on their homepage.
 Pricing information is located here.</p>
@@ -419,7 +451,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2,h3",
+      selectors: "h1,h2,h3,h4",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
@@ -428,7 +460,7 @@ $(document).ready(function ()  {
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
     };
-    options.showAndHide = true;
+    options.showAndHide = false;
     options.smoothScroll = true;
 
     // tocify
