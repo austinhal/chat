@@ -18,23 +18,25 @@ Front is a modern customer service platform that helps companies enhance custome
 
 <br>
 
-### Multi-Channel Communication 📞
+### Key Features
+
+#### 📞 Multi-Channel
 
 Front allows teams to collaborate on messages from email, chat, social media, and other channels in a single interface. This streamlines communication and ensures that no customer inquiries fall through the cracks.<br><br>
 
-### Team Collaboration 🤝
+#### 🤝 Team Collaboration 
 
 With Front, teams can work together efficiently. They can assign messages to specific team members, leave internal notes, and collaborate on responses. This ensures consistent and timely customer support.<br><br>
 
-### Automation and Integrations 🔗
+#### 🔗 Automation/Integrations 
 
 Front integrates with various tools and services, allowing companies to automate repetitive tasks. For example, you can set up rules to route specific types of inquiries to the right team or use templates for common responses.<br><br>
 
-### Mobile and Desktop Apps 📱💻
+#### 📱💻 Mobile/Desktop Apps 
 
 Front offers desktop apps for macOS and Windows, as well as mobile apps for iOS and Android. This means you can stay connected and manage messages whether you’re at your desk or on the go.<br><br>
 
-### Web Access 🌐
+#### 🌐 Web Access 
 
 You can also access your Front account via the web at [app.frontapp.com](app.frontapp.com).<br><br>
 

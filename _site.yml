@@ -8,7 +8,7 @@ navbar:
       href: painpoints.html
     - text: "What is Front?"
       href: front.html
-    - text: "Features/Pricing"
+    - text: "Notable Features"
       href: features.html
     - text: "Secruity"
       href: secruity.html

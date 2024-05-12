@@ -10,34 +10,21 @@ output:
     toc_depth: 4
 ---
 
-<section>
-		<h2>More Information</h2>
-		<p>Front has a wealth of information in their <a href="https://front.com/resources" target="_blank">help
-				docs</a> and on their homepage. <a href="https://front.com/product" target="_blank">A brief list of
-				features</a> can be found on their homepage.
+### Front and Our Data
 
-			Pricing information is located <a href="https://front.com/pricing" target="_blank">here.</a>
-		</p>
+Front.com takes security compliance and data protection seriously to ensure the safety and privacy of its users' information. The company adheres to industry-leading security standards, including SOC 2 Type II compliance, which guarantees that Front.com's systems and processes meet stringent criteria for security, availability, processing integrity, confidentiality, and privacy. This certification provides assurance to customers that Front.com maintains robust controls to protect sensitive data.
 
-		<p>
-			<a href="https://www.youtube.com/watch?v=HQCUMNPjtSk" target="_blank">Product Overview Demo video</a>
-		</p>
+In addition to SOC 2 Type II compliance, Front.com employs encryption protocols to safeguard data transmission and storage, ensuring that information remains secure throughout its lifecycle. The company also implements strict access controls and regularly conducts security audits and assessments to identify and mitigate potential vulnerabilities. By prioritizing security compliance and data protection measures, Front.com demonstrates its commitment to maintaining the trust and confidence of its users.
 
-		<p>
-			<a href="https:/help.front.com/en/articles/2280" target="_blank">SSO Information</a>
-		</p>
+### Additional Information
 
-		<p>
+Integration's are available for SSO and can be seen here: <a href="https:/help.front.com/en/articles/2280" target="_blank">SSO Information</a>
+
+A detailed report of their protocols and data regulations can be viewed here: 
+<p>
 			Security Handbook <a
 				href="https://front.com/assets/security/Front-Security-and-Compliance-Handbook-2024_Updated-020724.pdf">[PDF
 				Download]</a>
 		</p>
-	</section>
-
-Front has a wealth of information in their help docs and on their homepage. A brief list of features can be found on their homepage. Pricing information is located here.
-
-Product Overview Demo video
-
-SSO Information
-
-Security Handbook [PDF Download]jnjn
+		
+	

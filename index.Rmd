@@ -1,9 +1,10 @@
 ---
-title: "Streamlining Emails"
+title: "Revolutionizing Inbox Managemen"
 author: "Compiled by Austin Halvorsen"
 website: "www.verisk.com"
 output: 
   html_document:
+    css: "Style.css"
     theme: journal
     toc: true
     toc_float:
@@ -11,27 +12,48 @@ output:
     toc_depth: 4
 ---
 
-<p style="font-size: 18px; color: black;">**Why should we consider switching from Outlook to Front:**</p><br>
+<p style="font-size: 18px; color: black;">**Why should we consider switching from Outlook to Front?**</p>
 
-## What is Front?
+## Problem Statement
 
-Front is a modern customer service platform that helps companies enhance customer experiences, engage their teams, and build stronger businesses. It provides a seamless way to manage communication across various channels, including email, social media, and more. Here are some key points about [Front](www.front.com)<br><br>
+Our current email management system our team is using is Outlook. Outlook is plagued with inefficiencies and limitations that hinder productivity and compromise customer satisfaction within a team lens. The Outlook application frequently lags, impeding workflow efficiency. Additionally, we lack the means to **effectively and easily track crucial metrics for customer satisfaction**, and there is a notable absence of a comprehensive system for categorizing and retrieving information from past emails. These issues are integral to our team's effectiveness and ultimately impact our ability to provide exceptional service to our customers.
 
-### Views and Accountability ⚖️️
+## Business Proposal
 
-Outlook’s shared mailboxes and distribution lists lack clear ownership, leading to confusion about who should handle specific emails.
-Front provides shared inboxes, allowing your team to collaborate effectively. Real-time collision detection ensures everyone knows who’s responding to an email, eliminating duplicate work and ensuring accountability.<br><br>
+### - Introduction
+As we strive for operational excellence and superior customer service, it's evident that our current email management system using Outlook falls short in meeting the evolving needs of our team. In light of this, I propose the adoption of Front.com, an innovative email management solution designed to streamline communication processes, enhance team collaboration, and provide valuable insights into customer interactions.
 
-### Avoid Lost Emails 🧭
+### - Key Features and Benefits
 
-In Outlook, valuable emails can get lost in the flood of incoming messages.
-Front keeps your team on top of messages, ensuring faster responses and critical communication doesn’t slip through the cracks.<br><br>
+1. **Efficient Inbox Management:**
+   Front.com offers a user-friendly interface that allows for efficient organization and management of emails. With features such as customizable tags, automated workflows, and shared inboxes, we can ensure that emails are promptly addressed and prioritized, reducing response times and minimizing the risk of overlooking critical messages.
 
-### Metrics Tracking ⏱️
+2. **Improved Performance and Reliability:**
+   Unlike the laggy performance of Outlook, Front.com operates seamlessly, providing a reliable platform for our team to communicate and collaborate effectively. Its cloud-based infrastructure ensures high performance, accessibility, and scalability, catering to the growing demands of our business.
 
-Outlook lacks built-in features for tracking metrics like response times and SLA agreements.
-Front offers reporting and analytics, allowing you to monitor performance, measure response times, and meet service level agreements effectively.<br><br>
+3. **Advanced Analytics and Metrics Tracking:**
+   One of the standout features of Front.com is its robust analytics capabilities, enabling us to track key metrics related to customer satisfaction, response times, and email volume. By gaining valuable insights into our email interactions, we can identify trends, pinpoint areas for improvement, and make data-driven decisions to optimize our service delivery.
+
+4. **Comprehensive Email Archiving and Search Functionality:**
+   Front.com offers comprehensive archiving and search functionality, allowing us to easily retrieve past emails based on relevant criteria. This eliminates the frustration of sifting through cluttered inboxes and enables us to quickly reference previous communications, facilitating smoother interactions with customers and internal stakeholders.
+
+### - Implementation Plan
+
+1. **Pilot Phase:**
+   I propose conducting a pilot phase within Account Changes to evaluate the effectiveness and suitability of Front.com. During this phase, we will assess its usability, performance, and impact on productivity, gathering feedback from participants to inform our decision-making process.
+
+2. **Training and Onboarding:**
+   To ensure a seamless transition to Front.com, comprehensive training and onboarding sessions will be provided to all team members. This will include hands-on tutorials, instructional materials, and access to support resources to facilitate a smooth adoption process and maximize user proficiency.
+
+3. **Integration with Existing Systems**
+   Front.com offers seamless integration with a wide range of third-party applications and tools, including Salesforce and JIRA. As part of the implementation plan, we will explore integration options to enhance workflow efficiency and streamline processes across our organization.
+
+**Conclusion**
+
+In conclusion, the adoption of Front.com represents a **strategic investment** in improving our team's efficiency, enhancing collaboration, and delivering exceptional customer service. By addressing the shortcomings of our current email management system and leveraging the advanced features of Front.com, we can position ourselves for long-term success and maintain a competitive edge in today's fast-paced business environment. I urge  management to consider this proposal and support the transition to Front.com for the benefit of our team and our customers.
 
 ---
 
-<p style="font-size: 18px; font-style: bold; color: black;">In summary, Front streamlines collaboration, prevents email overload, and provides the tools needed to manage customer communications efficiently.</p>
+## So, What is [Front](front.html)?
+
+Front is a modern customer service platform that helps companies enhance customer experiences, engage their teams, and build stronger businesses. It provides a seamless way to manage communication across various channels, including email, social media, and more. Here are some key points about [Front](www.front.com)
