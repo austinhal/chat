@@ -1,5 +1,5 @@
 ---
-title: "Revolutionizing Inbox Managemen"
+title: "Revolutionizing Inbox Management"
 author: "Compiled by Austin Halvorsen"
 website: "www.verisk.com"
 output: 
