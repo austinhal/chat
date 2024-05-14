@@ -9,7 +9,7 @@ output:
     toc: true
     toc_float:
       collapsed: false
-    toc_depth: 4
+    toc_depth: 3
 ---
 
 <p style="font-size: 18px; color: black;">**Why should we consider switching from Outlook to Front?**</p>
@@ -26,7 +26,7 @@ As we strive for operational excellence and superior customer service, it's evid
 ### - Key Features and Benefits
 
 1. **Efficient Inbox Management:**
-   Front.com offers a user-friendly interface that allows for efficient organization and management of emails. With features such as customizable tags, automated workflows, and shared inboxes, we can ensure that emails are promptly addressed and prioritized, reducing response times and minimizing the risk of overlooking critical messages.
+   Front.com offers a user-friendly interface that allows for efficient organization and management of emails. With features such as customization tags, automated workflows, and shared inboxes, we can ensure that emails are promptly addressed and prioritized, reducing response times and minimizing the risk of overlooking critical messages.
 
 2. **Improved Performance and Reliability:**
    Unlike the laggy performance of Outlook, Front.com operates seamlessly, providing a reliable platform for our team to communicate and collaborate effectively. Its cloud-based infrastructure ensures high performance, accessibility, and scalability, catering to the growing demands of our business.
@@ -48,7 +48,24 @@ As we strive for operational excellence and superior customer service, it's evid
 3. **Integration with Existing Systems**
    Front.com offers seamless integration with a wide range of third-party applications and tools, including Salesforce and JIRA. As part of the implementation plan, we will explore integration options to enhance workflow efficiency and streamline processes across our organization.
    
-### - Goals
+### - Measuring Success
+
+I have outlined specific goals that will help us measure the impact and effectiveness of this implementation. These goals are aligned with our proposal to adopt Front for email management and promises significant benefits to our company. They're all about tackling the issues we've been facing with our current system while making the most out of what Front has to offer. We're aiming to make specific improvements, like responding to emails faster, boosting customer satisfaction, and spending less time digging through our inbox. The best part is, we'll be able to track our progress along the way and see how Front is really making a difference. It's all about getting things done more efficiently, keeping our customers happy, and making our work lives easier.
+
+---
+
+#### Goals
+
+1. Increase Email Response Time Efficiency by **25%** within 3 Months. 
+
+2. Achieve a **20%** Increase in Customer Satisfaction Scores within 6 Months
+
+3. Reduce Time Spent on Email Search and Retrieval Tasks by **30%** within 4 Months
+
+4. Achieve a "First Reply" time to new messages to under an **1 hour** within 3 months
+
+---
+
 
 **Conclusion**
 
