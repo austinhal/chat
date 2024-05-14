@@ -10,8 +10,8 @@ navbar:
       href: front.html
     - text: "Notable Features"
       href: features.html
-    - text: "Secruity"
-      href: secruity.html
+    - text: "Security"
+      href: security.html
       
   right:
     - icon: fa-envelope fa-lg
