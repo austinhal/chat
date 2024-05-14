@@ -1,5 +1,5 @@
 ---
-title: "Secruity and Pricing"
+title: "Security"
 website: "www.verisk.com"
 output: 
   html_document:
